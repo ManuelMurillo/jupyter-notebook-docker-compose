@@ -14,4 +14,5 @@ services:
       # command: "start-notebook.sh \
       #   --NotebookApp.password=${ACCESS_TOKEN} \
       #   --NotebookApp.certfile=/etc/ssl/notebook/jupyter.pem"
-      command: "start-notebook.sh"
+      # command: "start-notebook.sh"
+      command: jupyter notebook --allow-root
